@@ -27,4 +27,4 @@ if (hasMoneyInPocket && !isWeekday); {
 
 if (isHotOutside && thirstyLevel >= 2) {
     console.log('willBuyMilk.');
-} 
+}
