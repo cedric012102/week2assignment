@@ -11,20 +11,20 @@ let willGoSwimming = isHotOutside && isWeekday;
 var isAGoodDay = hasMoneyInPocket && !isWeekday;
 var willBuyMilk = isHotOutside && thirstyLevel >= 2;
 
-if (isHotOutside && hasMoneyInPocket == true) {
+if (isHotOutside && hasMoneyInPocket) {
     console.log(shouldBuyIceCream);
 } else {
     prompt("You do not have enough money!")
 };
 
 if (isHotOutside && isWeekday == false); {
-    console.log("willGoSwimming.");
+    console.log(willGoSwimming);
 }
 
 if (hasMoneyInPocket && !isWeekday); {
-    console.log('isAGoodDay.');
+    console.log(isAGoodDay);
 }
 
 if (isHotOutside && thirstyLevel >= 2) {
-    console.log('willBuyMilk.');
+    console.log(willBuyMilk);
 }
