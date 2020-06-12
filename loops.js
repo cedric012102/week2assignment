@@ -21,13 +21,13 @@ for (let i = 1; i <= 100; i++) {
 }
 
 for (let i = 0; i < 100; i++) {
-    if (i % 3 == 0); {
-        console.log("Hello") 
-    } 
-    if (i % 5 == 0); {
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log("Hello World") 
+    } else if (i % 5 == 0) {
       console.log("World")  
-    }
-    if (i % 3 == 0 && i % 5 == 0); {
-        console.log("Hello World")
+    } else if (i % 3 == 0) {
+        console.log("Hello")
+    } else {
+        console.log(i)
     }
 }
